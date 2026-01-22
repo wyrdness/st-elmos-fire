@@ -1,0 +1,324 @@
+{
+  "category": "ATMOSPHERIC_PHENOMENON",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/st-elmos-fire",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "st-elmos-fire",
+    "name": "St. Elmo's Fire",
+    "aliases": [
+      {
+        "name": "Corposant",
+        "language": "Portuguese",
+        "meaning": "corpo santo (holy body)"
+      },
+      {
+        "name": "Corona Discharge",
+        "region": "Scientific terminology"
+      }
+    ],
+    "category": "ATMOSPHERIC_PHENOMENON",
+    "subcategory": "Electrical Weather Phenomenon",
+    "tags": [
+      "explained",
+      "electrical",
+      "plasma",
+      "maritime",
+      "aviation",
+      "storms",
+      "corona-discharge"
+    ],
+    "status": "explained",
+    "description": {
+      "summary": "Electrical weather phenomenon creating glowing blue/violet plasma on pointed objects during storms. Fully explained as corona discharge.",
+      "full": "St. Elmo's Fire is a well-understood electrical weather phenomenon that creates a characteristic blue or violet glow on pointed objects such as ship masts, aircraft nose cones and wings, church steeples, and mountain peaks during thunderstorms or other conditions of high atmospheric electricity. The phenomenon is caused by corona discharge—the ionization of air molecules in strong electric fields. Named after St. Erasmus of Formia (St. Elmo), patron saint of sailors, it has been documented for millennia and was historically considered a good omen by mariners. Unlike lightning, St. Elmo's Fire is relatively harmless, though it indicates the presence of strong electrical fields. The physics of corona discharge are well established, making this a fully EXPLAINED atmospheric phenomenon. It appears during thunderstorms, volcanic eruptions, dust storms, and any situation creating sufficient atmospheric electricity."
+    },
+    "etymology": {
+      "origin": "Named after St. Erasmus of Formia (St. Elmo), patron saint of sailors, because the phenomenon was commonly observed on ships",
+      "meaning": "Fire of St. Elmo",
+      "first_use": "Ancient, documented for millennia"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ATMOSPHERIC_PHENOMENON",
+      "type": "Electrical Weather Phenomenon",
+      "subtype": "Corona Discharge",
+      "variant": "EXPLAINED"
+    },
+    "related_phenomena": [
+      {
+        "id": "ball-lightning",
+        "name": "Ball Lightning",
+        "relationship": "related",
+        "description": "Different electrical phenomenon, less understood"
+      },
+      {
+        "id": "atmospheric-beasts",
+        "name": "Atmospheric Anomalies",
+        "relationship": "related",
+        "description": "Other atmospheric electrical phenomena"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "appearance": [
+        {
+          "feature": "Color",
+          "description": "Blue or violet glow (sometimes white)",
+          "frequency": "always"
+        },
+        {
+          "feature": "Location",
+          "description": "Appears on pointed objects (masts, steeples, aircraft, mountain peaks)",
+          "frequency": "always"
+        },
+        {
+          "feature": "Sound",
+          "description": "Sometimes accompanied by crackling or hissing sound",
+          "frequency": "occasional"
+        },
+        {
+          "feature": "Duration",
+          "description": "Can last from seconds to minutes",
+          "frequency": "variable"
+        }
+      ],
+      "morphology": "Luminous plasma discharge appearing as glowing aura around pointed objects"
+    },
+    "behavior": {
+      "activity_period": "during electrical storms or high atmospheric electricity",
+      "conditions": "Thunderstorms, volcanic eruptions, dust storms, high atmospheric electrical fields",
+      "patterns": [
+        "Appears on pointed objects",
+        "Blue/violet glow",
+        "Associated with strong electric fields",
+        "Not dangerous (unlike lightning)",
+        "Can jump between objects"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Worldwide phenomenon, occurs anywhere with sufficient atmospheric electrical conditions",
+      "continents": ["All continents"],
+      "countries": ["Global"],
+      "regions": ["Worldwide - oceans, mountains, anywhere storms occur"]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Ancient",
+        "circa": true,
+        "source": "Documented in ancient maritime records, classical literature"
+      },
+      "historical_documentation": "Documented for millennia in maritime logs, classical texts, and historical records"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Ancient maritime phenomenon, documented by sailors for thousands of years",
+      "earliest_accounts": "Classical era maritime records, ancient Greek and Roman texts",
+      "folklore_connections": "Considered omen (usually good) by sailors. Named after patron saint of sailors."
+    },
+    "timeline": [
+      {
+        "date": "Ancient",
+        "event": "Classical documentation",
+        "significance": "Ancient mariners document glowing lights on ship masts",
+        "source": "Classical maritime records"
+      },
+      {
+        "date": "Medieval",
+        "event": "Named after St. Elmo",
+        "significance": "Phenomenon named after St. Erasmus of Formia, patron saint of sailors",
+        "source": "Maritime tradition"
+      },
+      {
+        "date": "1500s-1700s",
+        "event": "Age of Exploration documentation",
+        "significance": "Extensively documented in ships' logs during age of sail",
+        "source": "Historical maritime records"
+      },
+      {
+        "date": "1800s",
+        "event": "Scientific understanding develops",
+        "significance": "Electrical nature of phenomenon understood",
+        "source": "Scientific literature"
+      },
+      {
+        "date": "1900s-present",
+        "event": "Aviation encounters",
+        "significance": "Documented on aircraft during storms",
+        "source": "Aviation records"
+      }
+    ],
+    "modern_era": "Well-understood electrical phenomenon. Physics of corona discharge fully explained. Still observed on ships, aircraft, mountains during electrical storms."
+  },
+
+  "science": {
+    "explanation": {
+      "mechanism": "Corona Discharge",
+      "physics": "When strong electric fields exist (such as during thunderstorms), air molecules near pointed objects become ionized. The ionization creates a visible glow as electrons recombine with ions, releasing photons in the blue/violet spectrum.",
+      "conditions": [
+        "Strong atmospheric electric field (typically during storms)",
+        "Pointed objects (concentrates electric field)",
+        "Sufficient air density for ionization",
+        "Electric field strength of approximately 30 kV per centimeter"
+      ],
+      "fully_explained": true
+    },
+    "characteristics": {
+      "color": "Blue/violet due to nitrogen ionization (primary atmospheric gas)",
+      "harmless": "Unlike lightning, corona discharge does not carry dangerous current levels",
+      "indicator": "Indicates presence of strong electrical fields, potential lightning precursor",
+      "temperature": "Relatively cool compared to lightning",
+      "electrical_field": "Requires approximately 30,000 volts per centimeter for ionization"
+    }
+  },
+
+  "evidence": {
+    "photographic": [
+      {
+        "type": "photographs",
+        "description": "Extensive photographic documentation from maritime and aviation sources",
+        "status": "documented",
+        "analysis": "Consistent with corona discharge physics"
+      }
+    ],
+    "video": [
+      {
+        "type": "video recordings",
+        "description": "Videos from aircraft cockpits, ships, ground observations",
+        "status": "documented",
+        "analysis": "Confirms visual characteristics and behavior"
+      }
+    ],
+    "scientific": [
+      {
+        "type": "laboratory reproduction",
+        "description": "Corona discharge can be reproduced in laboratory conditions",
+        "status": "confirmed",
+        "analysis": "Phenomenon fully understood and reproducible"
+      },
+      {
+        "type": "electrical measurements",
+        "description": "Electric field strength measured during occurrences",
+        "status": "documented",
+        "analysis": "Confirms electrical nature and required conditions"
+      }
+    ]
+  },
+
+  "occurrences": {
+    "maritime": {
+      "description": "Historically most common observation on ship masts during storms",
+      "significance": "Considered good omen by sailors (sign storm may be passing)",
+      "locations": "Ship masts, rigging, metal railings",
+      "documentation": "Thousands of years of maritime records"
+    },
+    "aviation": {
+      "description": "Observed on aircraft during flight through electrical storms",
+      "locations": "Aircraft nose, wing tips, propellers, windshields",
+      "safety": "Not directly dangerous but indicates strong electrical activity",
+      "documentation": "Well-documented in aviation incident reports"
+    },
+    "terrestrial": {
+      "description": "Can appear on church steeples, mountain peaks, towers during storms",
+      "locations": "Steeples, peaks, towers, antennas, pointed structures",
+      "historical": "Documented for centuries on tall structures"
+    },
+    "volcanic": {
+      "description": "Can occur during volcanic eruptions due to electrical activity",
+      "mechanism": "Ash particles create electrical charging",
+      "documentation": "Documented at various volcanic eruptions"
+    }
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": ["Maritime superstition and tradition"],
+      "stories": ["Sign of St. Elmo's protection", "Omen of storm's end"],
+      "beliefs": "Generally considered good omen by sailors, sign of divine protection"
+    },
+    "popular_culture": {
+      "literature": [
+        "Shakespeare's 'The Tempest' - references the phenomenon",
+        "Numerous maritime adventure novels",
+        "Classical literature references"
+      ],
+      "film_tv": [
+        "'St. Elmo's Fire' (1985 film) - named after phenomenon",
+        "Referenced in maritime and aviation films",
+        "Documentary features"
+      ],
+      "music": [
+        "Song 'St. Elmo's Fire (Man in Motion)' by John Parr"
+      ]
+    },
+    "historical_significance": {
+      "maritime": "Important part of maritime culture and folklore",
+      "religious": "Named after patron saint, considered sign of divine presence",
+      "scientific": "Early example of natural electrical phenomenon studied scientifically"
+    }
+  },
+
+  "safety": {
+    "danger_level": "low",
+    "considerations": [
+      "St. Elmo's Fire itself is not dangerous",
+      "Indicates presence of strong electrical fields",
+      "Can be precursor to lightning strikes",
+      "Should be taken as warning of electrical storm conditions",
+      "In aviation: can interfere with radio communications"
+    ],
+    "differences_from_lightning": [
+      "Much lower current than lightning",
+      "Continuous glow rather than flash",
+      "Does not carry dangerous electrical discharge",
+      "Relatively cool temperature",
+      "Appears on objects, not traveling through air"
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "corona-discharge-physics",
+      "type": "scientific",
+      "title": "Corona Discharge and Atmospheric Electricity",
+      "description": "Standard physics textbooks and research on electrical discharge in atmosphere"
+    },
+    {
+      "id": "maritime-history",
+      "type": "historical",
+      "title": "Historical Maritime Records",
+      "description": "Centuries of ships' logs documenting the phenomenon"
+    },
+    {
+      "id": "aviation-reports",
+      "type": "documentation",
+      "title": "Aviation Incident and Observation Reports",
+      "description": "Modern documentation from aircraft encounters"
+    }
+  ]
+}
